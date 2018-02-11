@@ -1,0 +1,20 @@
+{
+  "name": "dockerize-cli",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Johan Ruokangas <johan@latehours.net> (https://latehours.net)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jozan/dockerize.git"
+  },
+  "license": "MIT",
+  "private": false,
+  "bin": {
+    "dockerize": "index.js"
+  },
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "commander": "^2.14.1",
+    "fs-extra": "^5.0.0"
+  }
+}
